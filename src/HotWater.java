@@ -9,4 +9,9 @@ public class HotWater extends Water {
     public Integer getTemperature() {
         return temperature;
     }
+
+    @Override
+    public String toString() {
+        return String.format("name: %s vol: %d temp %d",getName(),getVolume(), getTemperature());
+    }
 }

@@ -7,4 +7,6 @@ public interface Machine {
 
     void addProduct(Product newItem);
 
+
+
 }

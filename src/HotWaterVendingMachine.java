@@ -1,6 +1,8 @@
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Iterator;
 
-public class HotWaterVendingMachine extends VendingMachine {
+public class HotWaterVendingMachine extends VendingMachine implements Iterable{
 
     public ArrayList getProduct(String searchName, Integer volume, Integer temperature) {
         ArrayList<Product> tempList = this.getProduct(searchName, volume);
@@ -13,5 +15,14 @@ public class HotWaterVendingMachine extends VendingMachine {
             }
         }
         return result;
+    }
+
+    public void sort(HotWaterComparator comp){
+        list.sort(comp);
+    }
+
+    @Override
+    public Iterator iterator() {
+        return list.iterator();
     }
 }

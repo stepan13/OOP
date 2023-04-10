@@ -4,20 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8575f22-107b-456e-b16a-c547955bd404" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HotWater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HotWaterVendingMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Machine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VendingMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Water.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled.iml" afterDir="false" />
+    <list default="true" id="f8575f22-107b-456e-b16a-c547955bd404" name="Changes" comment="OOP homework1">
+      <change afterPath="$PROJECT_DIR$/src/HotWaterComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HotWater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HotWater.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HotWaterVendingMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HotWaterVendingMachine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Machine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Machine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VendingMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VendingMachine.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,12 +40,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Vanger/Documents/Программирование/Java/OOP/Shelters"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -75,6 +70,26 @@
       <option name="presentableId" value="Default" />
       <updated>1679937188715</updated>
     </task>
+    <task id="LOCAL-00001" summary="Java homework1">
+      <created>1680036397922</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1680036397922</updated>
+    </task>
+    <task id="LOCAL-00002" summary="OOP homework1">
+      <created>1680036471862</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1680036471862</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Java homework1" />
+    <MESSAGE value="OOP homework1" />
+    <option name="LAST_COMMIT_MESSAGE" value="OOP homework1" />
   </component>
 </project>

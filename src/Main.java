@@ -5,12 +5,18 @@ public class Main {
 
         HotWaterVendingMachine machineHotWater = new HotWaterVendingMachine();
         machineHotWater.addProduct(new HotWater("hot water 1l", 300.0, 1, 40));
+        machineHotWater.addProduct(new HotWater("hot water 2l", 300.0, 2, 20));
+        machineHotWater.addProduct(new HotWater("hot water 2l", 300.0, 2, 15));
         machineHotWater.addProduct(new HotWater("hot water 2l", 300.0, 2, 40));
-        machineHotWater.addProduct(new HotWater("hot water 2l", 300.0, 2, 40));
-        machineHotWater.addProduct(new HotWater("another hot water 2l", 300.0, 2, 40));
         machineHotWater.addProduct(new HotWater("hot water 3l", 200.0, 3, 50));
 
-        ArrayList list2 = machineHotWater.getProduct("water", 2, 40);
-        System.out.println(list2);
+        machineHotWater.prinntProducts();
+        System.out.println("---");
+        machineHotWater.sort(new HotWaterComparator("temperature"));
+        machineHotWater.prinntProducts();
+
+        for (Object item : machineHotWater){
+            System.out.println("iterated: " + item);
+        }
     }
 }

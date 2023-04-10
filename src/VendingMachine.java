@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class VendingMachine implements Machine {
+public class VendingMachine implements Machine{
     protected ArrayList<Product> list;
 
     public VendingMachine() {
@@ -42,5 +42,11 @@ public class VendingMachine implements Machine {
             }
         }
         return result;
+    }
+
+    public void prinntProducts(){
+        for (Product item : list){
+            System.out.println(item);
+        }
     }
 }
